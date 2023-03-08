@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>cliente-ms</artifactId>
+        <groupId>com.globant</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>cliente-infrastructure</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.globant</groupId>
+            <artifactId>cliente-domain</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.globant</groupId>
+            <artifactId>cliente-application</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.globant</groupId>
+            <artifactId>common-infraestructure</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+    </dependencies>
+    
+</project>

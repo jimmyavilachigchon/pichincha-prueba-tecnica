@@ -1,0 +1,7 @@
+server:
+  servlet:
+    context-path: /pruebatecnica
+
+spring:
+  profiles:
+    active: dev
